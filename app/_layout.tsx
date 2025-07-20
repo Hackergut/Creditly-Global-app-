@@ -31,7 +31,17 @@ function RootLayoutNav() {
       },
     }}>
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="services" options={{ headerShown: false }} />
       <Stack.Screen name="services/[id]" options={{ headerShown: true }} />
+      <Stack.Screen name="about" options={{ headerShown: false }} />
+      <Stack.Screen name="contact" options={{ headerShown: false }} />
+      <Stack.Screen name="faq" options={{ headerShown: false }} />
+      <Stack.Screen name="privacy" options={{ headerShown: false }} />
+      <Stack.Screen name="profile" options={{ headerShown: false }} />
+      <Stack.Screen name="settings" options={{ headerShown: false }} />
+      <Stack.Screen name="free-evaluation" options={{ headerShown: false }} />
+      <Stack.Screen name="request-credit/[id]" options={{ headerShown: false }} />
+      <Stack.Screen name="credits/[id]" options={{ headerShown: false }} />
     </Stack>
   );
 }

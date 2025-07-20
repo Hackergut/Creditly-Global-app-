@@ -10,7 +10,8 @@ import {
   Phone, 
   Settings, 
   LogOut,
-  ChevronRight 
+  ChevronRight,
+  Briefcase 
 } from 'lucide-react-native';
 import { Image } from 'expo-image';
 import * as Haptics from 'expo-haptics';
@@ -39,6 +40,12 @@ export default function DrawerMenu({ isVisible, onClose }: DrawerMenuProps) {
   const { user, logout } = useAuth();
 
   const menuItems: MenuItem[] = [
+    {
+      id: 'services',
+      title: 'Servizi',
+      icon: <Briefcase size={20} color={Colors.darkGray} />,
+      route: '/services',
+    },
     {
       id: 'profile',
       title: 'Profilo',

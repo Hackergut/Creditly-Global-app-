@@ -26,22 +26,23 @@ export default function PrivacyScreen() {
       >
         <View style={styles.content}>
           <Text style={styles.title}>Privacy Policy</Text>
-          <Text style={styles.lastUpdated}>Ultimo aggiornamento: Gennaio 2025</Text>
+          <Text style={styles.lastUpdated}>Ultimo aggiornamento: 20 Gennaio 2025</Text>
           
-          <Text style={styles.sectionTitle}>1. Introduzione</Text>
+          <Text style={styles.sectionTitle}>1. Informazioni Generali</Text>
           <Text style={styles.paragraph}>
-            {brandConfig.name} ("noi", "nostro" o "la Società") rispetta la privacy dei propri utenti e si impegna a proteggere le informazioni personali che ci vengono fornite. Questa Privacy Policy descrive come raccogliamo, utilizziamo e proteggiamo le tue informazioni quando utilizzi i nostri servizi.
+            {brandConfig.name} FZCO ("noi", "nostro" o "la Società"), con sede legale a Dubai Silicon Oasis, Dubai, Emirati Arabi Uniti, rispetta la tua privacy e si impegna a proteggere i tuoi dati personali. Questa Privacy Policy spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni quando utilizzi i nostri servizi di gestione crediti fiscali.
           </Text>
 
-          <Text style={styles.sectionTitle}>2. Informazioni che Raccogliamo</Text>
+          <Text style={styles.sectionTitle}>2. Dati che Raccogliamo</Text>
           <Text style={styles.paragraph}>
-            Raccogliamo le seguenti tipologie di informazioni:
+            Per fornire i nostri servizi specializzati in crediti fiscali, raccogliamo:
           </Text>
-          <Text style={styles.bulletPoint}>• Dati di identificazione personale (nome, cognome, email, telefono)</Text>
-          <Text style={styles.bulletPoint}>• Informazioni fiscali e finanziarie necessarie per la valutazione dei crediti</Text>
-          <Text style={styles.bulletPoint}>• Documenti caricati sulla piattaforma (fatture, certificazioni, contratti)</Text>
-          <Text style={styles.bulletPoint}>• Dati di utilizzo della piattaforma e log di accesso</Text>
-          <Text style={styles.bulletPoint}>• Informazioni sui pagamenti e transazioni</Text>
+          <Text style={styles.bulletPoint}>• Dati identificativi: nome, cognome, codice fiscale, partita IVA</Text>
+          <Text style={styles.bulletPoint}>• Contatti: email, telefono, indirizzo di residenza/sede legale</Text>
+          <Text style={styles.bulletPoint}>• Documenti fiscali: dichiarazioni, CUD, certificazioni energetiche</Text>
+          <Text style={styles.bulletPoint}>• Informazioni sui crediti: Superbonus 110%, Bonus Edilizi, Industria 4.0</Text>
+          <Text style={styles.bulletPoint}>• Documentazione tecnica: asseverazioni, visti di conformità</Text>
+          <Text style={styles.bulletPoint}>• Dati bancari per i pagamenti (crittografati)</Text>
 
           <Text style={styles.sectionTitle}>3. Come Utilizziamo le Tue Informazioni</Text>
           <Text style={styles.paragraph}>
