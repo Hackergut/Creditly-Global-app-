@@ -4,6 +4,8 @@ export interface Service {
   description: string;
   icon: string;
   route: string;
+  percentage: number;
+  maxAmount?: number;
 }
 
 export interface ContactFormData {
